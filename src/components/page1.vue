@@ -23,8 +23,12 @@
 export default {
   data() {
     return {
-      message: 'test'
+      message: "test"
     };
+  },
+  created: function() {
+    // eslint-disable-next-line
+    console.log("message: " + this.message);
   }
 };
 </script>
